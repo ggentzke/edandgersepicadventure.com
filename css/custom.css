@@ -1,3 +1,38 @@
+body { 
+  background-color: #ebeef1;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.polaroid { 
+  background-color: #fff;
+}
+
 .space {
   padding: 10px;
+}
+
+
+ /* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+ul li{
+  list-style: circle;
+}
+#footer {
+  margin-top: 40px;
+  color: #ccc;
+}
+#footer a{
+  color: #aaa;
+  text-decoration: none;
+}
+
+a.blackLink {
+  color: #000;
 }
